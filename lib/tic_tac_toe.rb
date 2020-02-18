@@ -25,10 +25,8 @@ def display_board
   end
 
 
- def input_to_index(player_input)
-  player_input = player_input.to_i
-  index = player_input-1
-  return index
+ def input_to_index(input)
+   input.to_i - 1
 end
 
 def move(index, player = 'X')
