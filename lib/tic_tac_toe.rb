@@ -13,7 +13,7 @@ WIN_COMBINATIONS = [
 
 #Initialize method should set board 
 def initialize
-    @board = Array.new(9,"")
+      @board = [" ", " ", " ", " ", " ", " ", " ", " ", " " ]
 end
 
 def display_board
